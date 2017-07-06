@@ -28,7 +28,24 @@
 /**
  * Register menus.
  */
+function create_custom_post_types() {
+	register_post_type('case_studies',
+		array(
+				'labels' => array(
+					'name' => ('Case Studies'),
+					'singular_name' => ('Case Study')
+					),
+				'public' => true,
+				'has_archive' => true,
+				'rewrite' => array( 'slug' => 'case-studies'),
+			)
+		);
+}
+
+add_action ( 'init', 'create_custom_post_types');
+
 function custom_excerpt_more($more) {
 	return '...<div class="read-more"><a href="'. get_permalink() . '"></a></div>';
 } 
 add_filter('excerpt_more', 'custom_excerpt_more');
+
