@@ -512,6 +512,10 @@ h1 {
 	list-style-type:none;
 }
 
+#masthead nav ul li {
+	display: inline;
+}
+
 a:hover {
 	text-decoration: none;
 }

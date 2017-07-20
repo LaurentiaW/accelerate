@@ -140,3 +140,47 @@ div.case-study-images-archivepage img {
 	margin-bottom: 50px;
 	border:1px solid #ddd;
 }
+
+
+/*nav */
+
+
+#masthead nav li {
+	display: inline;
+	padding-right: 10px; 
+}
+
+
+#masthead a {
+	text-transform: uppercase; 
+}
+
+
+/*form ninja */
+
+.ninja-forms-req-symbol {
+	visibility: hidden;
+}
+
+.nf-form-fields-required {
+	visibility: hidden;
+}
+
+#nf-field-4 {
+    float: right;
+    background: #45ac9d;
+    color: #fff;
+    font-family: montserrat;
+    padding: 12px 76px;
+    border: none;
+    font-weight: bolder;
+    }
+
+ .nf-field {
+ 	font-size: 14px;
+ }
+
+ #content {
+    width: 625px;
+    margin: auto;
+}
