@@ -184,3 +184,35 @@ div.case-study-images-archivepage img {
     width: 625px;
     margin: auto;
 }
+
+/* custom about page */
+
+li:nth-child(odd) #service-descript {
+	float: left;
+	width: 45%;
+
+}
+
+li:nth-child(odd) .icon {
+	float: left;
+	width: 45%;
+
+}
+
+
+
+li:nth-child(even) {
+
+}
+
+li:nth-child(even) #service-descript {
+	float: left;
+	width: 45%;
+
+}
+
+li:nth-child(even) .icon {
+	float: left;
+	width: 45%;
+
+}
