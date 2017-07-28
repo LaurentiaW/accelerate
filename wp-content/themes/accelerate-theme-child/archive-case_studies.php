@@ -38,10 +38,9 @@ get_header(); ?>
 
 
 			</article>
-	
+			
 			<?php endwhile; // end of the loop. ?>
 
-		</div><!-- #content -->
-	</div><!-- #primary -->
+
 
 <?php get_footer(); ?>
