@@ -12,6 +12,9 @@
 
 @import url("../accelerate-theme/style.css");
 
+h3 {
+	font-size: 25px;
+}
 
 /* Homepage Styles */
 .home-page {
@@ -147,9 +150,15 @@ div.case-study-images-archivepage img {
 
 #masthead nav li {
 	display: inline;
-	padding-right: 10px; 
 }
 
+#masthead nav ul li {
+	padding-right: 25px; 
+} 
+
+#masthead nav li:last-child {
+	padding-right:0px;
+}
 
 #masthead a {
 	text-transform: uppercase; 
@@ -187,32 +196,103 @@ div.case-study-images-archivepage img {
 
 /* custom about page */
 
-li:nth-child(odd) #service-descript {
-	float: left;
-	width: 45%;
+/* Homepage Styles */
+.about-page {
+    background: url("img/taxi-photo.jpg") no-repeat scroll center bottom / cover rgba(0, 0, 0, 0);
+    height: 150px;
+    margin: 0 0 80px;
+    padding: 100px 0;
+  }
+.about-hero {
+	text-align:center;
+}
+
+.about-hero h3 {
+    color: white;
+    font-family: "open sans";
+    font-weight: normal;
+    width: 600px;
+    margin: auto;
+    line-height: 32px;
 
 }
 
-li:nth-child(odd) .icon {
-	float: left;
-	width: 45%;
+.about-hero h3 span {
+    color: #45ac9d;
+   
+}
 
+#content h4{
+	text-align: center;
+	text-transform: uppercase;
+	margin-bottom: 40px;
+}
+
+#services-p p {
+	text-align: center;
+}
+
+
+#content p {
+	text-align: center;
+}
+
+.caption h3 {
+	padding-top: 1px;
+
+}
+
+.caption p {
+	text-align: left;
+}
+
+.caption ul {
+	list-style: none;
 }
 
 
 
-li:nth-child(even) {
-
+#alternating-content .item {
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;  
+padding: 5px;  
 }
 
-li:nth-child(even) #service-descript {
-	float: left;
-	width: 45%;
-
+#alternating-content .item:after {
+content: "";  
+display: block;  
+clear: both;  
 }
 
-li:nth-child(even) .icon {
-	float: left;
-	width: 45%;
+#alternating-content .item .icon {
+max-width: 100px;  
+width: 25%;  
+height: auto;  
+padding: 5px;  
+}
 
+#alternating-content .item .caption {
+width: 70%;  
+padding: 5px;  
+}
+
+
+
+#alternating-content .item:nth-child(odd) .icon {
+float: left;  
+}
+
+#alternating-content .item:nth-child(odd) .caption {
+text-align: left;  
+float: right;  
+}
+
+#alternating-content .item:nth-child(even) .icon {
+float: right;  
+}
+
+#alternating-content .item:nth-child(even) .caption {
+text-align: right;  
+float: left;  
 }
