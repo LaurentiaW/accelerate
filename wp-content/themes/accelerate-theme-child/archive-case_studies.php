@@ -19,7 +19,7 @@ get_header(); ?>
 				$link = get_field('site_link');
 			?>
 			<article class="case-study">
-				<aside class="case-study-sidebar">
+				<aside class="case-study-archivepage-sidebar">
 					<h2><?php the_title();?></h2>
 					<h5><?php echo $services; ?></h5>
 					

@@ -89,6 +89,10 @@ h3 {
 }
 
 /*Case Studies */
+.case-study {
+	 margin-top: 40px;
+    padding-top: 20px;
+}
 
 aside.case-study-sidebar {
 	float: left;
@@ -133,20 +137,32 @@ div.case-study-images img {
     color: #45ac9d;
 }
 
-div .case-study-images-archivepage {
+.case-study-images-archivepage {
 	float: left;
 	width: 610px;
 	margin-left: 40px;
 }
 
 
-div.case-study-images-archivepage img {
+.case-study-images-archivepage img {
 	display: block;
 	margin-bottom: 50px;
 	border:1px solid #ddd;
 }
 
+.case-study-archivepage-sidebar {
+	float: left;
+	width: 30%;
+	margin-right: 10px;
+	text-align: left;
 
+	}
+
+.case-study-archivepage-sidebar h5 {
+	font-size: 12px;
+	color: #878787;
+	margin-top: 0;
+}
 /*nav */
 
 
@@ -200,7 +216,7 @@ div.case-study-images-archivepage img {
 
 /* custom about page */
 
-/* Homepage Styles */
+
 .about-page {
     background: url("img/taxi-photo.jpg") no-repeat scroll center bottom / cover rgba(0, 0, 0, 0);
     height: 150px;
@@ -226,29 +242,26 @@ div.case-study-images-archivepage img {
    font-weight: bolder;
 }
 
-#content h4{
-	text-align: center;
-	text-transform: uppercase;
-	margin-bottom: 40px;
+#about-wrap {
+	width: 80%;
+	margin: auto;
 }
 
-#services-p p {
-	text-align: center;
+.icon {
+	float: left;
+	width: 30%
 }
 
-/*
-#content p {
-	text-align: center;
-}*/
+.caption {
+	float: left;
+	width: 67%
+}
 
 .caption h3 {
-	padding-top: 1px;
-
+	margin-top: 0;
 }
 
-.caption p {
-	text-align: left;
-}
+
 
 .caption ul {
 	list-style: none;
@@ -260,7 +273,7 @@ div.case-study-images-archivepage img {
 -webkit-box-sizing: border-box;
 -moz-box-sizing: border-box;
 box-sizing: border-box;  
-padding: 5px;  
+padding: 30px 5px;  
 }
 
 .alternating-content .item:after {
@@ -269,34 +282,52 @@ display: block;
 clear: both;  
 }
 
-.alternating-content .item .icon {
-max-width: 100px;  
-width: 25%;  
-height: auto;  
-padding: 5px;  
-}
-
-.alternating-content .item .caption {
-width: 60%;  
-padding: 5px;  
-}
-
 
 
 .alternating-content:nth-child(odd) .icon {
 float: left;  
 }
 
-/*.alternating-content:nth-child(odd) .caption {
-text-align: left;  
-float: right;  
-}*/
+
 
 .alternating-content:nth-child(even) .icon {
 float: right;  
 }
-/*
-.alternating-content .item:nth-child(even) .caption {
-text-align: right;  
-float: left;  
-}*/
+
+
+.about-contact-text {
+	float: left;
+	width: 60%;
+}
+
+.button-about {
+	float: right;
+	}
+.about-contact{
+	padding: 25px;
+	width: 70%;
+	margin:auto;
+}
+
+.about-contact h3{
+	margin-top: 0px;
+}
+#about-wrap h4 {
+	text-align: center;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-family: montserrat;
+   }
+
+   #about-wrap p{
+   	text-align: center;
+   }
+
+   /* 404 page */
+
+   .fourofour-page {
+    background: url("img/404.png") no-repeat scroll center bottom / cover rgba(0, 0, 0, 0);
+    height: 150px;
+    margin: 0 0 80px;
+    padding: 100px 0;
+  }
