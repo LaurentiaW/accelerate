@@ -25,7 +25,7 @@ get_header(); ?>
 					
 					<?php the_content(); ?>
 
-					<p class="hover-link"><strong><a href="<?php echo $link ; ?>">View Project &gt;</a></strong></p>
+					<p class="hover-link"><strong><a href="<?php the_permalink (); ?>">View Project &gt;</a></strong></p>
 				</aside>
 
 				<div class="case-study-images-archivepage">
