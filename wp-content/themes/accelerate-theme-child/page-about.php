@@ -40,7 +40,7 @@ get_header(); ?>
               $size = "medium"
           ?>
 
-            <div id="alternating-content">
+            <div class="alternating-content">
 
               <div class="item">  
                 <figure class="icon">  <?php echo wp_get_attachment_image($icon, $size); ?>  </figure>

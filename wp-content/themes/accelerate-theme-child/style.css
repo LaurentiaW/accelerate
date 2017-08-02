@@ -92,8 +92,9 @@ h3 {
 
 aside.case-study-sidebar {
 	float: left;
-	width: 300px;
+	width: 40%;
 	margin-right: 10px;
+	text-align: left;
 }
 
 aside.case-study-sidebar h4 {
@@ -116,7 +117,7 @@ aside.case-study-sidebar p {
 }
 div.case-study-images {
 	float: left;
-	width: 610px;
+	width: 55%;
 }
 
 div.case-study-images img {
@@ -219,7 +220,7 @@ div.case-study-images-archivepage img {
 
 .about-hero h3 span {
     color: #45ac9d;
-   
+   font-weight: bolder;
 }
 
 #content h4{
@@ -252,47 +253,47 @@ div.case-study-images-archivepage img {
 
 
 
-#alternating-content .item {
+.alternating-content .item {
 -webkit-box-sizing: border-box;
 -moz-box-sizing: border-box;
 box-sizing: border-box;  
 padding: 5px;  
 }
 
-#alternating-content .item:after {
+.alternating-content .item:after {
 content: "";  
 display: block;  
 clear: both;  
 }
 
-#alternating-content .item .icon {
+.alternating-content .item .icon {
 max-width: 100px;  
 width: 25%;  
 height: auto;  
 padding: 5px;  
 }
 
-#alternating-content .item .caption {
-width: 70%;  
+.alternating-content .item .caption {
+width: 60%;  
 padding: 5px;  
 }
 
 
 
-#alternating-content .item:nth-child(odd) .icon {
+.alternating-content:nth-child(odd) .icon {
 float: left;  
 }
 
-#alternating-content .item:nth-child(odd) .caption {
+/*.alternating-content:nth-child(odd) .caption {
 text-align: left;  
 float: right;  
-}
+}*/
 
-#alternating-content .item:nth-child(even) .icon {
+.alternating-content:nth-child(even) .icon {
 float: right;  
 }
-
-#alternating-content .item:nth-child(even) .caption {
+/*
+.alternating-content .item:nth-child(even) .caption {
 text-align: right;  
 float: left;  
-}
+}*/
