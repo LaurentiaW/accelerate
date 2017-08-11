@@ -48,9 +48,9 @@ get_header(); ?>
 							comments_template();
 						endif; ?>
 			</div>
-
-			<?php get_sidebar(); ?>
-
+				<aside class="sidebar">
+					<?php get_sidebar(); ?>
+				</aside>
 			<footer class="navigation container">
 				<div class="left">&larr;<a href="<?php echo home_url(); ?>/blog">back to posts</a></div>
 			</footer>
