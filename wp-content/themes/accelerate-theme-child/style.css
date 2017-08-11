@@ -379,9 +379,73 @@ float: right;
 
    /* 404 page */
 
-   .fourofour-page {
-    background: url("img/404.png") no-repeat scroll center bottom / cover rgba(0, 0, 0, 0);
-    height: 150px;
-    margin: 0 0 80px;
-    padding: 100px 0;
-  }
+ .image404 {
+ 	 margin: auto;
+    padding-top: 25px;
+    padding-bottom: 25px;
+ }
+
+ .image404 img {
+ 	margin: auto;
+ 	display:block;
+ 	transform: rotate(355deg);
+ }
+   
+ .fourofour-page span a {
+ 	font-weight: bolder;
+ 	color: #45ac9d;
+ }
+
+/*newsletter signup form */
+
+#mc4wp-form  {
+	width: 300px;
+	float: right;
+	display: block;
+}
+
+
+
+
+.mc4wp-form label {
+	margin: 0px;
+	font-size: 14px;
+	font-weight: bold;
+	padding: 0;
+
+}
+
+.mc4wp-form label p {
+	text-align: center;
+
+}
+
+.mc4wp-form input {
+width: 250px;
+margin-bottom: 10px;
+}
+
+.mc4wp-form input {
+width: 250px;
+margin-bottom: 10px;
+}
+
+.mc4wp-form input[type=submit] {
+	width: 120px;
+	font-size: 14px;
+	background: #45ac9d;
+    color: #fff;
+    font-family: 'montserrat';
+    border: none;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.sbmbtn {
+	text-align: center;
+}
+
+
+#sidebar {
+	width: 300px;
+}
