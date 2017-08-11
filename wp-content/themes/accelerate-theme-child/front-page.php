@@ -55,6 +55,39 @@ get_header(); ?>
 
   </section>
 
+  <section class="list-services">
+     <div class="site-content">
+      <div class="fwork">
+        
+        <h4>our services</h4>
+        <div class="homep-fwork">
+          <ul class="homepage-featured-work">  
+            <?php query_posts('posts_per_page=4&post_type=services'); ?>
+              <?php while ( have_posts() ) : the_post(); 
+
+                $icon = get_field("icon");
+                $size = "medium"
+            ?>
+
+            <li class="individual-featured-work">
+                <figure>
+                  <a href="<?php the_permalink(); ?>">
+                    <?php echo wp_get_attachment_image($icon, $size); ?>
+                  </a>
+                </figure>
+                <h5><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h5>
+            </li>
+            
+            <?php endwhile; ?> 
+            
+            <?php wp_reset_query(); ?>
+          
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
 
   <section class="recent-posts">
     <div class="site-content">
