@@ -72,7 +72,7 @@ get_header(); ?>
             <li class="individual-featured-work">
                 <figure>
                   <a href="<?php the_permalink(); ?>">
-                    <?php echo wp_get_attachment_image($icon, $size); ?>
+                  <?php echo wp_get_attachment_image($icon, $size); ?>
                   </a>
                 </figure>
                 <h5><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h5>
@@ -100,18 +100,17 @@ get_header(); ?>
            <a class="read-more-link" href="<?php the_permalink(); ?>">Read More <span>&rsaquo;</span></a>
          <?php endwhile; ?> 
 
-         <?php if ( is_active_sidebar( 'sidebar-2' ) ) : ?>
+      </div>
+      <div class="twitter-feed">
+        <?php if ( is_active_sidebar( 'sidebar-2' ) ) : ?>
             <div id="secondary" class="widget-area" role="complementary">
               <?php dynamic_sidebar( 'sidebar-2' ); ?>
+              <a class="read-more-link" href="#">Follow us <span>&rsaquo;</span></a>
             </div>
-          <?php endif; ?>
-         </div>
-
-      <?php if ( is_active_sidebar( 'sidebar-2' ) ) : ?>
-        <div id="secondary" class="widget-area" role="complementary">
-          <?php dynamic_sidebar( 'sidebar-2' ); ?>
-        </div>
-      <?php endif; ?>
+       
+        <?php endif; ?>
+      </div>
+     
     </div>
   </section>
 <?php get_footer(); ?>
