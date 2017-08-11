@@ -100,7 +100,12 @@ get_header(); ?>
            <a class="read-more-link" href="<?php the_permalink(); ?>">Read More <span>&rsaquo;</span></a>
          <?php endwhile; ?> 
 
-      </div>
+         <?php if ( is_active_sidebar( 'sidebar-2' ) ) : ?>
+            <div id="secondary" class="widget-area" role="complementary">
+              <?php dynamic_sidebar( 'sidebar-2' ); ?>
+            </div>
+          <?php endif; ?>
+         </div>
 
       <?php if ( is_active_sidebar( 'sidebar-2' ) ) : ?>
         <div id="secondary" class="widget-area" role="complementary">
