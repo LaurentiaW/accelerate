@@ -67,7 +67,7 @@ h3 {
 
 
 .blog-post {
-	width: 50%;
+	width: 45%;
 	float: left;
 }
 
@@ -101,8 +101,9 @@ h3 {
 }
 
 .twitter-feed {
-	width: 48%;
+	width: 45%;
 	float: left;
+	padding-left: 30px;
 }
 
 .widget-title a {
