@@ -450,3 +450,26 @@ margin-bottom: 10px;
 #sidebar {
 	width: 300px;
 }
+
+/* social nav bar in footer */
+
+.menu-social-media-nav-container ul {
+ list-style: none;
+}
+
+.menu-social-media-nav-container li { 
+	display: inline;
+	padding-right: 20px;
+ }
+
+ .menu-social-media-nav-container i {
+ 	border-radius: 50%;
+    background-color: #3b3b3b;
+    color: #fff;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    vertical-align: middle;
+    padding: 5px;
+    font-size: 25px;
+ } 
