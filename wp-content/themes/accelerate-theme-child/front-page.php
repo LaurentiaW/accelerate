@@ -29,7 +29,7 @@ get_header(); ?>
      <div class="site-content">
       <div class="fwork">
         
-        <h4>Featured Work</h4>
+        <h4><a href="<?php echo home_url(); ?>/work">Featured Work</a></h4>
         <div class="homep-fwork">
           <ul class="homepage-featured-work">  
             <?php query_posts('posts_per_page=3&post_type=case_studies'); ?>
@@ -59,7 +59,7 @@ get_header(); ?>
      <div class="site-content">
       <div class="fwork">
         
-        <h4>our services</h4>
+        <h4><a href="<?php echo home_url(); ?>/about">our services</a></h4>
         <div class="homep-fwork">
           <ul class="homepage-featured-work">  
             <?php query_posts('posts_per_page=4&post_type=services'); ?>
@@ -71,11 +71,11 @@ get_header(); ?>
 
             <li class="individual-featured-work">
                 <figure>
-                  <a href="<?php the_permalink(); ?>">
+                  <a href="<?php echo home_url(); ?>/about">
                   <?php echo wp_get_attachment_image($icon, $size); ?>
                   </a>
                 </figure>
-                <h5><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h5>
+                <h5><a href="<?php echo home_url(); ?>/about"><?php the_title(); ?></a></h5>
             </li>
             
             <?php endwhile; ?> 
